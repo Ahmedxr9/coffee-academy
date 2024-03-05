@@ -7,18 +7,13 @@ $emp_p = "please enter your Password";
 
 if (!empty($user) && !empty($pass)) {
     if ($user === "fathey" && $pass === "123654") {
-        header("Location: admin_dashbord.html");
+        header("Location: admin_dashbord.php");
     } elseif ($user === "Madonna" && $pass === "123654") {
-        header("Location: clint_dashbord.html");
-    } elseif ($user === "bassem" && $pass === "123654") {
-        header("Location: protofly_user_b.html");
-    } elseif ($user === "adham" && $pass === "123654") {
-        header("Location: protofly_user_l.html");
+        header("Location: clint_dashbord.php");
+    }elseif ($user === "Madonna" && $pass === "123654") {
+        header("Location: clint_dashbord.php");
     }
-} else {
-    echo $emp_a;
 }
-
 ?>
 <!-- rest of your HTML code -->
 
@@ -31,7 +26,7 @@ if (!empty($user) && !empty($pass)) {
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-    <link rel="stylesheet" href="sign.css">
+    <link rel="stylesheet" href="login/sign.css">
     <title>signin-signup</title>
 </head>
 

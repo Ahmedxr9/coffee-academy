@@ -51,9 +51,10 @@ header .navbar {
   color: #C06B3E;
 }
 
+/*==================== s1 ====================*/
 .hero-section {
   height: 100vh;
-  background-image: url("https://www.codingnepalweb.com/demos/create-responsive-coffee-website-html-css/hero-bg.jpg");
+  background-image: url("assets/images/c46af40d-8192-40ae-a02a-1d6823073601_16x9_1200x676.webp");
   background-position: center;
   background-size: cover;
   display: flex;
@@ -65,7 +66,7 @@ header .navbar {
   max-width: 1200px;
   margin: 0 auto;
   width: 100%;
-  color: #fff;
+  color: #371B15;
 }
 
 .hero-section .content h2 {
@@ -96,6 +97,196 @@ header .navbar {
   color: #fff;
   background: #C06B3E;
 }
+
+
+/*==================== s2 ====================*/
+.hero-section2 {
+  height: 100vh;
+  background-image: url("assets/images/photo_2024-03-05_02-22-27.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.hero-section2 .content {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  color: #371B15;
+}
+
+.hero-section2 .content h2 {
+  font-size: 3rem;
+  max-width: 600px;
+  line-height: 70px;
+}
+
+.hero-section2 .content p {
+  font-weight: 300;
+  max-width: 600px;
+  margin-top: 15px;
+}
+
+.hero-section2 .content button {
+  background: #fff;
+  padding: 12px 30px;
+  border: none;
+  font-size: 1rem;
+  border-radius: 6px;
+  margin-top: 38px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.2s ease;
+}
+
+.hero-section2 .content button:hover {
+  color: #fff;
+  background: #C06B3E;
+}
+
+/*==================== s3 ====================*/
+.hero-section3 {
+  height: 100vh;
+  background-image: url("assets/images/betere-manager-tips.png");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.hero-section3 .content {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  color: #371B15;
+}
+
+.hero-section3 .content h2 {
+  font-size: 3rem;
+  max-width: 600px;
+  line-height: 70px;
+}
+
+.hero-section3 .content p {
+  font-weight: 300;
+  max-width: 600px;
+  margin-top: 15px;
+}
+
+.hero-section3 .content button {
+  background: #fff;
+  padding: 12px 30px;
+  border: none;
+  font-size: 1rem;
+  border-radius: 6px;
+  margin-top: 38px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.2s ease;
+}
+
+.hero-section3 .content button:hover {
+  color: #fff;
+  background: #C06B3E;
+}
+
+/*==================== s4 ====================*/
+.hero-section2 {
+  height: 100vh;
+  background-image: url("assets/images/jpg.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.hero-section2 .content {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  color: #371B15;
+}
+
+.hero-section2 .content h2 {
+  font-size: 3rem;
+  max-width: 600px;
+  line-height: 70px;
+}
+
+.hero-section2 .content p {
+  font-weight: 300;
+  max-width: 600px;
+  margin-top: 15px;
+}
+
+.hero-section2 .content button {
+  background: #fff;
+  padding: 12px 30px;
+  border: none;
+  font-size: 1rem;
+  border-radius: 6px;
+  margin-top: 38px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.2s ease;
+}
+
+.hero-section2 .content button:hover {
+  color: #fff;
+  background: #C06B3E;
+}
+
+/*==================== s5 ====================*/
+.hero-section2 {
+  height: 100vh;
+  background-image: url("assets/images/piattaforma_HR.jpeg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.hero-section2 .content {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  color: #371B15;
+}
+
+.hero-section2 .content h2 {
+  font-size: 3rem;
+  max-width: 600px;
+  line-height: 70px;
+}
+
+.hero-section2 .content p {
+  font-weight: 300;
+  max-width: 600px;
+  margin-top: 15px;
+}
+
+.hero-section2 .content button {
+  background: #fff;
+  padding: 12px 30px;
+  border: none;
+  font-size: 1rem;
+  border-radius: 6px;
+  margin-top: 38px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.2s ease;
+}
+
+.hero-section2 .content button:hover {
+  color: #fff;
+  background: #C06B3E;
+}
+
 
 #close-menu-btn {
   position: absolute;

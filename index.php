@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coffee Website HTML and CSS | CodingNepal</title>
-    <link rel="stylesheet" href="style.css">
+    
     <!-- Google Fonts Links For Icon -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <header>
@@ -15,7 +16,8 @@
         <ul class="menu-links">
           <span id="close-menu-btn" class="material-symbols-outlined">close</span>
           <li><a href="index.php">Home</a></li>
-          <li><a href="course.html">Course</a></li>
+          <li><a href="index_shop.php">shop</a></li>
+          <li><a href="course.php">Course</a></li>
           <li><a href="profiles/index.html">Members</a></li>
           <li><a href="sign.php">Login</a></li>
         </ul>
@@ -30,7 +32,13 @@
           Coffee is a popular and beloved beverage enjoyed by 
           people around the world.Awaken your senses with a steaming cup of liquid motivation.
         </p>
-        <button>Start Now</button>
+        <a href="coffee site/index.html">
+          <button>client</button>
+        </a>
+        <a href="sign.php">
+          <button>Intern</button>
+         </a>
+
       </div>
     </section>
 
