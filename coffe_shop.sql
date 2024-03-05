@@ -65,3 +65,59 @@ INSERT INTO ShopProducts (ProductName, Price) VALUES
 ('Vanilla Frappucino', 230.00),
 ('White Chocolate Mocha', 350.00),
 ('Ice Latte', 200.00);
+
+-- Create Members table
+IF NOT EXISTS (SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_NAME = 'Members')
+BEGIN
+    CREATE TABLE Members (
+        MemberID INT PRIMARY KEY IDENTITY(1,1),
+        MemberName VARCHAR(255),
+        MemberEmail VARCHAR(255) UNIQUE,
+        MemberType VARCHAR(50)
+    );
+END;
+
+-- Create Dashboards table
+IF NOT EXISTS (SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_NAME = 'Dashboards')
+BEGIN
+    CREATE TABLE Dashboards (
+        DashboardID INT PRIMARY KEY IDENTITY(1,1),
+        DashboardName VARCHAR(255),
+        UserID INT,
+        FOREIGN KEY (UserID) REFERENCES Users(UserID)
+    );
+END;
+
+-- Create Clients table
+IF NOT EXISTS (SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_NAME = 'Clients')
+BEGIN
+    CREATE TABLE Clients (
+        ClientID INT PRIMARY KEY IDENTITY(1,1),
+        ClientName VARCHAR(255),
+        ClientEmail VARCHAR(255) UNIQUE,
+        ClientPhone VARCHAR(20)
+    );
+END;
+
+-- Create LogInSignUp table
+IF NOT EXISTS (SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_NAME = 'LogInSignUp')
+BEGIN
+    CREATE TABLE LogInSignUp (
+        LogInSignUpID INT PRIMARY KEY IDENTITY(1,1),
+        UserName VARCHAR(255),
+        Password VARCHAR(255),
+        SignUpDate DATETIME DEFAULT GETDATE()
+    );
+END;
+
+-- Create ContactUs table
+IF NOT EXISTS (SELECT 1 FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_NAME = 'ContactUs')
+BEGIN
+    CREATE TABLE ContactUs (
+        InquiryID INT PRIMARY KEY IDENTITY(1,1),
+        FullName VARCHAR(255),
+        Email VARCHAR(255),
+        Message TEXT,
+        InquiryDate DATETIME DEFAULT GETDATE()
+    );
+END;
